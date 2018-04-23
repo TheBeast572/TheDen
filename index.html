@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Den: Home</title>
+		<link rel="stylesheet" href="css/core.css" type="text/css">
+    	<script src="js/core.js"></script>
+    	<script src="querys/jquery.js"></script> 
+	</head>
+	<body>
+		<div class="background">
+		<div class="page">
+			<div class="header">
+				<h1>Navigation</h1>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<div class="dropdown">
+							<button onclick="dropdownFunction()" class="dropbtn">Projects</button>
+  							<div id="myDropdown" class="dropdown-content">
+    							<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    								<a href="projects/snake-game/Snake.html">Snake Game</a>
+    								<a href="projects/flappybird-game/FlappyBird.html">Flappy Bird</a>
+  							</div>
+						</div>
+					</li>
+				</ul>
+				</div>
+				<div class="bodyHome">
+					<img src="http://www.yim778.com/data/out/162/1097248.png" alt="Mountains">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

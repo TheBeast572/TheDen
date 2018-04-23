@@ -1,0 +1,99 @@
+/*------------------------- Fonts ---------------------------*/
+@font-face {
+	font-family: 'bevanregular';
+	src: url('../fonts/bevan-webfont.eot');
+	src: url('../fonts/bevan-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/bevan-webfont.woff') format('woff'),  url('../fonts/bevan-webfont.ttf') format('truetype'),  url('../fonts/bevan-webfont.svg#bevanregular') format('svg');
+	font-weight: normal;
+}
+
+/*------------------------- Layout Styles --------------------*/
+a {
+	outline:none;
+}
+/*------------------------- Header ---------------------------*/
+.header {
+	background-color: white;
+	padding-bottom: 50px;
+}
+.header h1 {
+	color: #39afef;
+	padding-left: 10px;
+	font-family: "bevanregular";
+	text-decoration: underline;
+}
+.header ul li {
+	float:left;
+	margin:0 0 0 36px;
+}
+.header ul li a {
+	color: #39afef;
+	font-family: bevanregular;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .025em;
+	line-height: 30px;
+	text-decoration:none;
+	text-transform:uppercase;
+
+}
+.header ul li.selected a, .header ul li a:hover {
+	color: #0be220;
+}
+.dropbtn {
+    color: #39afef;
+	font-family: bevanregular;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .025em;
+	line-height: 30px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#myInput {
+    border-box: box-sizing;
+    background-image: "images/searchicon.png";
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+#myInput:focus {
+	outline: 3px solid #ddd;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {
+	background-color: #ddd
+}
+.show {
+	display:block;
+}
+/*------------------------- Body ---------------------------*/
+body {
+	background-color: #39afef; 
+}
+
+.bodyHome img {
+	width: 100%;
+	height: 5%;
+}
+/*------------------------- Footer ---------------------------*/
